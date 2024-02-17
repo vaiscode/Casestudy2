@@ -61,7 +61,7 @@ var alertPromise= ()=>{
 
 var promiseCall=()=>{
     alertPromise().then((data)=>{
-        alert(`Kudos, We done ${data} activities today.... Congrats!`);
+        alert('Congrats!! 5 Tasks have been Successfully Completed');
     })
     .catch((err)=>{
         console.log('promise rejected');
